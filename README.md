@@ -11,3 +11,7 @@ Data has following 6 attributes:
 + Density
 + Severity
 
+I am using algorithms to test severity of these tumors.(Malignant or Benign).
+
+To know more about the data.
+https://archive.ics.uci.edu/ml/machine-learning-databases/mammographic-masses/mammographic_masses.names
