@@ -18,7 +18,7 @@ a_train, a_test, b_train, b_test = train_test_split(a,b,test_size=0.25)
 knn=KNeighborsClassifier(n_neighbors=30)
 knn.fit(a_train,b_train)
 ans=knn.predict(a_test)
-print "Accuracy of Logistic regression:  ",metrics.accuracy_score(ans,b_test)
+print "Accuracy of k nearest neighbors:  ",metrics.accuracy_score(ans,b_test)
 
 ll=LogisticRegression()
 ll.fit(a_train, b_train)
